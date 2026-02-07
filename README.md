@@ -15,13 +15,7 @@
 
 ## 安装方式
 
-### 方式一：一键安装（推荐）
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/geekjourneyx/doubao-skills/main/scripts/install-openclaw.sh | bash
-```
-
-### 方式二：npx skills
+### 方式一：npx skills（推荐）
 
 ```bash
 # 从 GitHub 安装
@@ -37,7 +31,13 @@ npx skills add geekjourneyx/doubao-skills --skill doubao-tts
 npx skills add geekjourneyx/doubao-skills -a claude-code -a cursor
 ```
 
-### 方式二：Claude Code 插件
+### 方式二：一键安装（适合 OpenClaw）
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/geekjourneyx/doubao-skills/main/scripts/install-openclaw.sh | bash
+```
+
+### 方式三：Claude Code 插件
 
 ```bash
 # 添加市场
@@ -49,13 +49,13 @@ npx skills add geekjourneyx/doubao-skills -a claude-code -a cursor
 
 或浏览：`/plugin > Discover > 搜索 "doubao"`
 
-### 方式三：直接从 GitHub 安装
+### 方式四：直接从 GitHub 安装
 
 ```bash
 /plugin install https://github.com/geekjourneyx/doubao-skills.git
 ```
 
-### 方式四：手动安装
+### 方式五：手动安装
 
 ```bash
 git clone https://github.com/geekjourneyx/doubao-skills.git
