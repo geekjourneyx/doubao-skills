@@ -1,0 +1,48 @@
+{
+  "name": "doubao-speech",
+  "version": "1.0.0",
+  "description": "ByteDance Volcano Engine Speech Services for Claude Code. Includes TTS (Text-to-Speech) with 100+ voice types and ASR (Speech-to-Text) with streaming recognition. Convert text to natural speech or transcribe audio files with high accuracy.",
+  "author": {
+    "name": "doubao-skills",
+    "email": "support@example.com"
+  },
+  "homepage": "https://github.com/geekjourneyx/doubao-skills",
+  "repository": "https://github.com/geekjourneyx/doubao-skills",
+  "license": "MIT",
+  "keywords": [
+    "tts",
+    "asr",
+    "speech",
+    "voice",
+    "doubao",
+    "bytedance",
+    "volcano",
+    "text-to-speech",
+    "speech-to-text",
+    "audio",
+    "synthesis",
+    "recognition",
+    "chinese",
+    "语音合成",
+    "语音识别"
+  ],
+  "category": "development",
+  "skills": [
+    "skills/doubao-tts",
+    "skills/doubao-asr"
+  ],
+  "env": {
+    "DOUBAO_APPID": {
+      "description": "Volcano Engine Application ID",
+      "required": true
+    },
+    "DOUBAO_TOKEN": {
+      "description": "Volcano Engine Access Token",
+      "required": true
+    },
+    "DOUBAO_CLUSTER": {
+      "description": "Volcano Engine Cluster (required for ASR)",
+      "required": false
+    }
+  }
+}

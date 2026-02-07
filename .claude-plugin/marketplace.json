@@ -1,0 +1,63 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "doubao-speech-marketplace",
+  "description": "ByteDance Volcano Engine Speech Services - TTS and ASR plugins for Claude Code",
+  "owner": {
+    "name": "doubao-skills",
+    "email": "support@example.com"
+  },
+  "plugins": [
+    {
+      "name": "doubao-tts",
+      "source": "../skills/doubao-tts",
+      "description": "Text-to-Speech synthesis using Doubao (ByteDance) TTS V3 API. Supports 100+ voice types, emotions, speed control, and multiple audio formats (mp3/wav/pcm/ogg_opus). Convert text to natural-sounding speech with customizable voices.",
+      "version": "1.0.0",
+      "author": {
+        "name": "doubao-skills"
+      },
+      "homepage": "https://www.volcengine.com/docs/6561/1257584",
+      "repository": "https://github.com/geekjourneyx/doubao-skills",
+      "license": "MIT",
+      "keywords": [
+        "tts",
+        "text-to-speech",
+        "voice",
+        "audio",
+        "synthesis",
+        "doubao",
+        "bytedance",
+        "volcano",
+        "chinese",
+        "语音合成"
+      ],
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "doubao-asr",
+      "source": "../skills/doubao-asr",
+      "description": "Speech-to-Text recognition using Doubao (ByteDance) ASR API. Supports streaming recognition, WAV/MP3 formats, ITN (Inverse Text Normalization), punctuation, and Chinese/English speech transcription.",
+      "version": "1.0.0",
+      "author": {
+        "name": "doubao-skills"
+      },
+      "homepage": "https://www.volcengine.com/docs/6561/80816",
+      "repository": "https://github.com/geekjourneyx/doubao-skills",
+      "license": "MIT",
+      "keywords": [
+        "asr",
+        "speech-to-text",
+        "transcription",
+        "audio",
+        "recognition",
+        "doubao",
+        "bytedance",
+        "volcano",
+        "chinese",
+        "语音识别"
+      ],
+      "category": "development",
+      "strict": false
+    }
+  ]
+}
